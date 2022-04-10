@@ -163,7 +163,6 @@ public class PlatformSpawner : MonoBehaviour
             {
                 spawnY = spawnY + UnityEngine.Random.Range(_spawnData.SpawnHeight.Min, _spawnData.SpawnHeight.Max);
             }
-            
                 
             int spawnLeft = UnityEngine.Random.Range(1, 100);
             float dx = UnityEngine.Random.Range(_spawnData.SpawnWidth.Min, _spawnData.SpawnWidth.Max);
